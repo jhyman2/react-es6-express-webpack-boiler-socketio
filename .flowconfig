@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/babel*
+.*/node_modules/babylon/.*
+.*/app/.*
+.*/public/.*.js
+
+[include]
+[libs]
+[options]
