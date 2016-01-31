@@ -1,17 +1,17 @@
 # react-es6-express-webpack-boiler-socketio
 
-This is a bare bones, example application which highlights the usage of React alongside Webpack.
+This is a bare bones, example application which highlights the usage of React alongside Webpack and Express.
 
 <h2>Development</h2>
 
-Start by cloning the master branch.
+Start by cloning this repository.
 
 <h3>Dependencies</h3>
 You will need to have Node, Gulp, Webpack, Git, and Flow installed on your system.
 
 <h3>Compiling</h3>
 
-Simple run `gulp` from the root of the project.  This will compile server files into `/app`, client files into `/build/`, and run the express server on http://localhost:3000.
+Simply run `gulp` from the root of the project.  This will compile server files into `/app/`, client files into `/build/`, and run the express server on `http://localhost:3000`.
 
 <h2>Libraries</h2>
 
