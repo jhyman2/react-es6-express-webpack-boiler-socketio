@@ -7,7 +7,14 @@ This is a bare bones, example application which highlights the usage of React al
 Start by cloning this repository.
 
 <h3>Dependencies</h3>
-You will need to have Node, Gulp, Webpack, Git, and Flow installed on your system.
+You will need to have Node, Gulp, Webpack, Git, and Flow installed on your system globally.  After installing Node, run the following commands.
+
+```
+npm install -g gulp
+npm install -g webpack
+npm install -g flow
+npm install
+```
 
 <h3>Compiling</h3>
 
