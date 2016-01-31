@@ -1,3 +1,5 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   entry: [ './public/js/index.jsx' ],
   module: {
@@ -14,10 +16,15 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   output: {
-    path: __dirname + '/build',
-    publicPath: '/build',
+    path: __dirname,
+    publicPath: '/',
     filename: 'bundle.js'
   },
+  plugins: [new HtmlWebpackPlugin({
+    title: 'React boilerplate!',
+    template: './public/index.html',
+    inject: 'body'
+  })],
   devServer: {
     contentBase: './build'
   }

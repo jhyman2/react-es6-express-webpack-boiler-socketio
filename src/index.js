@@ -14,7 +14,7 @@ const server = http.Server(app);
 const io     = socketio(server);
 const upload = multer();
 
-app.use(express.static(__dirname + '/../public'));
+app.use(express.static(__dirname + '/../build'));
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());

@@ -13,7 +13,7 @@ const paths = {
   serverJS    : ['./src/**/*.js'],
   serverDest  : './app',
   clientJS    : ['./src/**/*.js'],
-  clientDest  : './public/build'
+  clientDest  : './build'
 };
 
 let express;
@@ -49,7 +49,7 @@ gulp.task('babel', shell.task([
 gulp.task('webpack', () => {
   return gulp.src('./public/js/index.jsx')
     .pipe(webpack(webpackConfig))
-    .pipe(gulp.dest('./public/dist'));
+    .pipe(gulp.dest('./build'));
 });
 
 gulp.task('webpack-dev-server', () => {

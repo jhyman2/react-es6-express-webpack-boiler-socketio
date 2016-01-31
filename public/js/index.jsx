@@ -44,4 +44,4 @@ export default class Hello extends Component {
   }
 }
 
-ReactDOM.render(<Hello />, document.getElementById('my-app'));
+ReactDOM.render(<Hello />, document.getElementById('app-container'));

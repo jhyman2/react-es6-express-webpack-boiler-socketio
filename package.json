@@ -46,6 +46,7 @@
     "gulp-live-server": "0.0.29",
     "gulp-shell": "^0.5.1",
     "gulp-watch": "^4.3.5",
+    "html-webpack-plugin": "^2.7.2",
     "mocha": "^2.3.4",
     "nodemon": "^1.4.1",
     "rimraf": "^2.5.1",
