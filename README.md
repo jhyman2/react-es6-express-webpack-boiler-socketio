@@ -10,11 +10,7 @@ Start by cloning this repository.
 You will need to have Node (5 or greated), Gulp, Webpack, Git, Babel, and Flow installed on your system globally.  After installing Node, run the following commands.
 
 ```
-npm install -g gulp
-npm install -g webpack
-npm install -g flow
-npm install -g babel
-npm install -g n
+npm install -g gulp flow babel webpack webpack-dev-server n
 n latest
 npm install
 ```
